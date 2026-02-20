@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Movie Color Scheme</title>
+    <style>
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+        .title {
+            font-weight: bold;
+            font-size: 22px;
+        }
+    </style>
+</head>
+
+<body>
+
+<table>
+
+<tr>
+    <th class="title" colspan="4">Cinema Mood</th>
+</tr>
+
+<tr>
+    <td style="background-color:#1c1c1c; color:white;">Dark Room</td>
+    <td style="background-color:#b22222; color:white;">Movie Red</td>
+    <td style="background-color:#f4c430;">Popcorn Gold</td>
+    <td style="background-color:#3a5fcd; color:white;">Screen Blue</td>
+</tr>
+
+<tr>
+    <td>#1c1c1c</td>
+    <td>#b22222</td>
+    <td>#f4c430</td>
+    <td>#3a5fcd</td>
+</tr>
+
+<tr>
+    <td>rgb(28, 28, 28)</td>
+    <td>rgb(178, 34, 34)</td>
+    <td>rgb(244, 196, 48)</td>
+    <td>rgb(58, 95, 205)</td>
+</tr>
+
+<tr>
+    <td>hsl(0, 0%, 11%)</td>
+    <td>hsl(0, 68%, 42%)</td>
+    <td>hsl(46, 89%, 57%)</td>
+    <td>hsl(225, 60%, 52%)</td>
+</tr>
+
+</table>
+
+</body>
+</html>
