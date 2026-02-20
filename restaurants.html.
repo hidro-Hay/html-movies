@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restaurant Menus</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .menu {
+            width: 400px;
+            height: 550px;
+            border: 4px solid black;
+            margin: 30px auto;
+            padding: 20px;
+            color: white;
+            background-size: cover;
+            background-position: center;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: circle;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="menu" style="background-image: url('https://images.unsplash.com/photo-1504754524776-8f4f37790ca0'); background-repeat: no-repeat;">
+    <h2>Breakfast Menu</h2>
+    <ul>
+        <li>Pancakes with Syrup</li>
+        <li>Scrambled Eggs</li>
+        <li>Bacon and Eggs</li>
+        <li>Orange Juice</li>
+        <li>Coffee</li>
+    </ul>
+</div>
+
+<div class="menu" style="background-image: url('https://images.unsplash.com/photo-1546069901-ba9599a7e63c'); background-repeat: no-repeat;">
+    <h2>Lunch Menu</h2>
+    <ul>
+        <li>Grilled Chicken Sandwich</li>
+        <li>Cheeseburger</li>
+        <li>Caesar Salad</li>
+        <li>French Fries</li>
+        <li>Iced Tea</li>
+    </ul>
+</div>
+
+<div class="menu" style="background-image: url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0'); background-repeat: no-repeat;">
+    <h2>Dinner Menu</h2>
+    <ul>
+        <li>Steak with Vegetables</li>
+        <li>Grilled Salmon</li>
+        <li>Pasta Alfredo</li>
+        <li>Garlic Bread</li>
+        <li>Red Wine</li>
+    </ul>
+</div>
+
+</body>
+</html>
